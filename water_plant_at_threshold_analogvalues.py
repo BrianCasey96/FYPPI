@@ -47,10 +47,9 @@ while True:
         
         if percent < 60:
             pump_on()
-            print("hi")
 
         else:
-            print("Plant watered")
+            print("Plan alreadyt watered")
 
     except KeyboardInterrupt: # If CTRL+C is pressed, exit cleanly:
         GPIO.cleanup() # cleanup all GPI
