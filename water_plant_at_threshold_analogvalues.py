@@ -7,12 +7,11 @@ import spidev
 spi = spidev.SpiDev()
 spi.open(0,0)
 
-
 init = False
 
 GPIO.setmode(GPIO.BCM)
-sensor = 14
-GPIO.setup(sensor, GPIO.IN) 
+#sensor = 14
+#GPIO.setup(sensor, GPIO.IN) 
 
 GPIO.setup(4, GPIO.OUT)
 GPIO.output(4, GPIO.LOW)
@@ -20,7 +19,7 @@ GPIO.output(4, GPIO.HIGH)
 
 def pump_on():
     GPIO.output(4, GPIO.LOW)
-    time.sleep(1)
+    sleep(1)
     GPIO.output(4, GPIO.HIGH)
 
 def getAdc (channel):
@@ -33,7 +32,7 @@ def getAdc (channel):
     
     #Filter data bits from returned bits
     adcOut = ((r[1]&3) << 8) + r[2]
-    percent = int(round(adcOut/10.24))
+    percent = int(100- (round(adcOut/10.24)))
     
     #print out 0-1023 value and percentage
     print("ADC Output: {0:4d} Percentage: {1:3}%".format (adcOut,percent))
@@ -43,11 +42,12 @@ print("Here we go!")
 
 while True:    
     try:
-        time.sleep(2)
+        sleep(2)
         percent = getAdc(0)
-
+        
         if percent < 60:
             pump_on()
+            print("hi")
 
         else:
             print("Plant watered")
