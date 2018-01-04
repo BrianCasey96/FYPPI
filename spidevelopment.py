@@ -9,7 +9,7 @@ from gpiozero import LightSensor
 spi = spidev.SpiDev()
 spi.open(0,0)
 
-ldr = LightSensor(4)
+ldr = LightSensor(14)
 
 def getAdc (channel):
 	#check valid channel
