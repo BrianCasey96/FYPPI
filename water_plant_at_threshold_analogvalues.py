@@ -49,7 +49,7 @@ while True:
             pump_on()
 
         else:
-            print("Plan alreadyt watered")
+            print("Plant already watered")
 
     except KeyboardInterrupt: # If CTRL+C is pressed, exit cleanly:
         GPIO.cleanup() # cleanup all GPI

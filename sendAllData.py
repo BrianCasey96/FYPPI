@@ -5,11 +5,21 @@ import spidev
 import pymysql.cursors
 import os
 import glob
+import RPi.GPIO as GPIO
 
 cnx = pymysql.connect(host="sql2.freemysqlhosting.net",
                      user="sql2202637",
                      passwd="aI7%wK3%",
                      db="sql2202637")
+
+##for water pump
+init = False
+
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(4, GPIO.OUT)
+GPIO.output(4, GPIO.LOW)
+GPIO.output(4, GPIO.HIGH)
 
 # Establish SPI device on Bus 0,Device 0 for moisture reading
 spi = spidev.SpiDev()
@@ -24,6 +34,11 @@ device_folder = glob.glob(base_dir + '28*')[0]
 device_file = device_folder + '/w1_slave'
 
 ldr = LightSensor(14)
+
+def pump_on():
+    GPIO.output(4, GPIO.LOW)
+    sleep(1)
+    GPIO.output(4, GPIO.HIGH)
 
 def getMositureLevel(channel):
     #check valid channel
@@ -82,9 +97,15 @@ while True:
         print("\n")
         sleep(1)
         
+##        if percent < 60:
+##            pump_on()
+
+##        else:
+##            print("Plant already watered")
+        
     except KeyboardInterrupt:
         cnx.close()
-##        GPIO.cleanup()
+        GPIO.cleanup()
 
 
 
