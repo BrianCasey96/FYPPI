@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+# -*- coding: utf-8 -*-
 from time import sleep
 from gpiozero import LightSensor
 import spidev
@@ -6,6 +7,7 @@ import pymysql.cursors
 import os
 import glob
 import RPi.GPIO as GPIO
+
 
 cnx = pymysql.connect(host="sql2.freemysqlhosting.net",
                      user="sql2202637",
@@ -55,7 +57,7 @@ def getMositureLevel(channel):
     
     #print out 0-1023 value and percentage
     print("Moisture Level: {0:4d} Mositure Percentage: {1:3}%".format (adcOut,percent))
-    sleep(1)
+##    sleep(1)
     
 
 def read_temp_raw():
@@ -92,10 +94,9 @@ while True:
         lightPercentage = ldr.value*100
         print("Light Level: %.2lf%%" % (lightPercentage))
         print("Temperature: %.2lf°C." % (read_temp()))
-        
-        sendValues(percent, read_temp(), ldr.value)
+        sendValues(percent, read_temp(), lightPercentage)
         print("\n")
-        sleep(1)
+        sleep(2)
         
 ##        if percent < 60:
 ##            pump_on()
@@ -105,7 +106,7 @@ while True:
         
     except KeyboardInterrupt:
         cnx.close()
-        GPIO.cleanup()
+##        GPIO.cleanup()
 
 
 
