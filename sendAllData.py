@@ -19,9 +19,9 @@ init = False
 
 GPIO.setmode(GPIO.BCM)
 
-GPIO.setup(4, GPIO.OUT)
-GPIO.output(4, GPIO.LOW)
-GPIO.output(4, GPIO.HIGH)
+GPIO.setup(17, GPIO.OUT)
+GPIO.output(17, GPIO.LOW)
+GPIO.output(17, GPIO.HIGH)
 
 # Establish SPI device on Bus 0,Device 0 for moisture reading
 spi = spidev.SpiDev()
@@ -38,9 +38,9 @@ device_file = device_folder + '/w1_slave'
 ldr = LightSensor(14)
 
 def pump_on():
-    GPIO.output(4, GPIO.LOW)
+    GPIO.output(17, GPIO.LOW)
     sleep(1)
-    GPIO.output(4, GPIO.HIGH)
+    GPIO.output(17, GPIO.HIGH)
 
 def getMositureLevel(channel):
     #check valid channel
@@ -56,7 +56,7 @@ def getMositureLevel(channel):
     percent = int(100- round(adcOut/10.24))
     
     #print out 0-1023 value and percentage
-    print("Moisture Level: {0:4d} Mositure Percentage: {1:3}%".format (adcOut,percent))
+    print("Moisture Level: {0:4d}  Mositure Percentage: {1:3}%".format (adcOut,percent))
 ##    sleep(1)
     
 
@@ -96,7 +96,7 @@ while True:
         print("Temperature: %.2lf°C." % (read_temp()))
         sendValues(percent, read_temp(), lightPercentage)
         print("\n")
-        sleep(2)
+        sleep(120)
         
 ##        if percent < 60:
 ##            pump_on()
