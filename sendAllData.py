@@ -7,13 +7,18 @@ import pymysql.cursors
 import os
 import glob
 import RPi.GPIO as GPIO
+import Adafruit_GPIO.SPI as SPI
+import Adafruit_MCP3008
 
+#cnx = pymysql.connect(host="sql2.freemysqlhosting.net",
+ #                    user="sql2202637",
+  #                   passwd="aI7%wK3%",
+   #                  db="sql2202637")
 
-cnx = pymysql.connect(host="sql2.freemysqlhosting.net",
-                     user="sql2202637",
-                     passwd="aI7%wK3%",
-                     db="sql2202637")
-
+cnx = pymysql.connect(host="35.205.189.63",
+		      user="root",
+		      passwd="butterfly",
+		      db="plant_data")
 ##for water pump
 init = False
 
@@ -24,9 +29,12 @@ GPIO.output(17, GPIO.LOW)
 GPIO.output(17, GPIO.HIGH)
 
 # Establish SPI device on Bus 0,Device 0 for moisture reading
-spi = spidev.SpiDev()
-spi.open(0,0)
+##spi = spidev.SpiDev()
+##spi.open(0,0)
 
+SPI_PORT = 0
+SPI_DEVICE = 0
+mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE))
 #for temperature reading
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
@@ -48,15 +56,16 @@ def getMositureLevel(channel):
         return -1
     
     #Preform SPI transaction and store returned bits in 'r'
-    r = spi.xfer([1, (8+channel) << 4, 0])
+   # r = spi.xfer([1, (8+channel) << 4, 0])
     
     #Filter data bits from returned bits
-    adcOut = ((r[1]&3) << 8) + r[2]
+    value = mcp.read_adc(0)
+   # adcOut = ((r[1]&3) << 8) + r[2]
     global percent
-    percent = int(100- round(adcOut/10.24))
+    percent = int(100- round(value/10.24))
     
     #print out 0-1023 value and percentage
-    print("Moisture Level: {0:4d}  Mositure Percentage: {1:3}%".format (adcOut,percent))
+    print("Moisture Level: {0:4d}  Mositure Percentage: {1:3}%".format (value,percent))
 ##    sleep(1)
     
 
@@ -81,7 +90,7 @@ def read_temp():
 def sendValues(mositure, temp, light):
     try:
         with cnx.cursor() as cursor:
-            sql = "INSERT INTO Date_and_Value VALUES (null, '%d', '%lf', '%.2f')" % (mositure, temp, light)
+            sql = "INSERT INTO pidata VALUES (null, '%d', '%lf', '%f')" % (mositure, temp, light)
             cursor.execute(sql)
         cnx.commit()
 
@@ -96,7 +105,7 @@ while True:
         print("Temperature: %.2lf°C." % (read_temp()))
         sendValues(percent, read_temp(), lightPercentage)
         print("\n")
-        sleep(120)
+        sleep(4)
         
 ##        if percent < 60:
 ##            pump_on()
