@@ -9,12 +9,13 @@ import glob
 import RPi.GPIO as GPIO
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_MCP3008
+import paho.mqtt.client as mqtt
 
-#cnx = pymysql.connect(host="sql2.freemysqlhosting.net",
- #                    user="sql2202637",
-  #                   passwd="aI7%wK3%",
-   #                  db="sql2202637")
+def connectionStatus(client, userdata, flags, rc):
+        mqttClient.subscribe("rpi/gpio")
 
+clientName = "RPI"
+serverAddress = "35.198.67.227"
 cnx = pymysql.connect(host="35.205.189.63",
 		      user="root",
 		      passwd="butterfly",
@@ -47,8 +48,18 @@ ldr = LightSensor(14)
 
 def pump_on():
     GPIO.output(17, GPIO.LOW)
-    sleep(1)
+    sleep(3)
     GPIO.output(17, GPIO.HIGH)
+
+
+def messageDecoder(client, userdata, msg):
+        message = msg.payload.decode(encoding='UTF-8')
+        print(message) 
+        if message == "on":
+                 print("on")
+		 pump_on()
+        else:
+                print("Unknown message!")
 
 def getMositureLevel(channel):
     #check valid channel
@@ -62,19 +73,18 @@ def getMositureLevel(channel):
     value = mcp.read_adc(0)
    # adcOut = ((r[1]&3) << 8) + r[2]
     global percent
-    percent = int(100- round(value/10.24))
-    
+    percent = int(100- round(value/10.24)) 
     #print out 0-1023 value and percentage
     print("Moisture Level: {0:4d}  Mositure Percentage: {1:3}%".format (value,percent))
 ##    sleep(1)
-    
+
 
 def read_temp_raw():
     f = open(device_file, 'r')
     lines = f.readlines()
     f.close()
     return lines
- 
+
 def read_temp():
     lines = read_temp_raw()
     while lines[0].strip()[-3:] != 'YES':
@@ -85,7 +95,6 @@ def read_temp():
         temp_string = lines[1][equals_pos+2:]
         temp_c = float(temp_string) / 1000.0
         return temp_c
-	
 
 def sendValues(mositure, temp, light):
     try:
@@ -96,6 +105,15 @@ def sendValues(mositure, temp, light):
 
     finally:
         print("Values Sent")
+
+mqttClient = mqtt.Client(clientName)
+
+mqttClient.on_connect = connectionStatus
+mqttClient.on_message = messageDecoder
+
+mqttClient.connect(serverAddress)
+#mqttClient.loop_forever()
+mqttClient.loop_start()
 
 while True:
     try:
