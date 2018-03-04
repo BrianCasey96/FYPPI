@@ -80,7 +80,7 @@ mqttClient.connect(serverAddress)
 ##mqttClient.loop_forever()
 mqttClient.loop_start()
 
-while True:
+def main():
 #    try:
      print("ADC Output: {0:4d} Percentage: {1:3}%".format (adc_output,percent))
      lightPercentage = ldr.value*100
@@ -99,7 +99,9 @@ while True:
  #   except KeyboardInterrupt:
   #      cnx.close()
    #     GPIO.cleanup()
-
+if __name__ == "__main__":
+   # stuff only to run when not called via 'import' here
+   main()
 
 
 
