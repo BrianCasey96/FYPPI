@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "plexiform-skill-194712",
+  "private_key_id": "cb4d9992002d80976aec99163d459c68ab5a4e0b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQXh43pmhkuYp5\nbKVyiqYSUrBwyonW4U7h3YY6RbAMzF1G2yiXLBgcRzWVRKj5+wRRIdwYdizJSk8Z\ncUnwUXam1tnlatYsOQ5cGkQb8h8xs/AHD005Cb46Z4C3fwuojutoVytqitECTNzw\nBvhKQ/gQgbSZzQv5Xrv9fF6TvHfMYN1UIIxbxajlJ+CaL4kmcq8kCljxnO3QarKN\n0H/68x5IxUUCMEctgVmmGmT0Z3l0RyOUItrbQ7vZFdC31MXJZ0p0iRozdL/Dau85\n95XrgLpB5NWRvROEDTNjmZ6oK/AWoLIkcqkbXY2snIUfIS3YPUYq570fN78Gg9WJ\nw68xr2SJAgMBAAECgf8sOKIDWMoH5Fnz9Gvm8XhdbZ04gdJuuzcub1K2MtiisPMH\nE46PVA+//P7jdXuU7F7Py5Mo32iWvcOO3r0kqZhWfBiHClKhh//xoRlkB6KJkXDP\nZo99Bn6uufSUQPYI1rGF3SG3FMtPg0l+IxQKbBb01+7tbroxeqiYx2KWg83qL3K5\nuxmm48Y+Fm7FGeHQwY5/NKWJNpCMomPRZcj/Xsn7DpVsGYhsoynFveI457/+AQJn\nvhtgx6I3p45oET6uageEAu2IVAosdJTO4tEaz17aoH/GPhhCmOYLyQxC9ug+hv5M\nojoVD0KYIh3MXs52Roi8J3/f/4QpK7lcxhkv0hkCgYEA7J92rsWqaVSQjTzqjpKP\n+iFEQncTRiEvTz7PWMu6UPul+56WdEJUj2WUdaGmvcg0Up/R1heCtxHk7nIbdzWy\nCOc1/yHG2QJf1USeZTkGIaHzJPFyZgrplOmKvz2mEmBvGJAIVSPqTfQLUuZbm83v\nTXgVgh5mdCnK6F/Rtjs+LW0CgYEA4W5Qenvf1Q+nUlQM+NqbVZfIYc+ow5V12vr2\n6dgGlJuGir9VxR0FAnT73079aZVyMg4gJY4IZIT7erMHJclz1XPpUhhtjWPmGDRW\nvCC8NlkYjg8wz1HkAw+p6Qozjsn23j2RrL9j6OKFLM7UIlNrLso7h5Bbyr63WhMZ\n+Bnjrg0CgYEAykanVlBzlQdNau+gM7Dmk5TMnWTdfR3xK3UuG2JNK91zzt2LEGeD\nkfHsL4K435O95sPoxXPjskwBwDSbdhTY1POSHT/qlKiK8+1s2msc6rNe/z3H5aN+\nemYKzeENjrgRQJYgCWhia7Er3Po/Zblt0HPPLyR9wN/ZLTx8MaQDSyECgYEAsjal\nhM8dOrCvVFSCFNGtb1MY5Mpn3obvrvgr7t4LBbyV9mYghj3U0gZtgDJQAAJXTt7/\n5vCMDftbW7rgcaz618pUr8QEB3zsUEJAN2WhpU12LggwTBWvLgRaDJM2AzIC6dq+\nqVR8xYUeRzgTWDeeSlUyDo+/IV74UEs9gnflGJkCgYEA47blxYxjWJyfMfo0HoyM\ntf0m7qb8LP7MevGHslYBCNq3VPYkwL5KXzjb1IieMoVawra3XUnpCO34qkkRBi6X\nem05nGJ3g7bU1hZ3qF7quv2hzPg4UL8EMQuu4JgZBize/078SQnyIHOTJqKcdRiq\n6SB1NJEQPBSbzHVrCvwqblQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "authsql@plexiform-skill-194712.iam.gserviceaccount.com",
+  "client_id": "102433981999271214763",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/authsql%40plexiform-skill-194712.iam.gserviceaccount.com"
+}
