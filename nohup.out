@@ -1,0 +1,12 @@
+ADC Output:  485 Percentage:  53%
+Light Level: 65.88%
+Temperature: 15.62°C.
+Values Sent
+
+
+Exception in thread Thread-2 (most likely raised during interpreter shutdown):ADC Output:  488 Percentage:  52%
+Light Level: 66.11%
+Temperature: 15.62°C.
+Values Sent
+
+
