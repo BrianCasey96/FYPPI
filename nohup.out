@@ -10,3 +10,1573 @@ Temperature: 15.62°C.
 Values Sent
 
 
+ADC Output:  497 Percentage:  51%
+Light Level: 25.45%
+Temperature: 17.88°C.
+Values Sent
+
+
+  File "sendAllData.py", line 29
+    port = 3307 )
+    ^
+IndentationError: unexpected indent
+ADC Output:  496 Percentage:  52%
+Light Level: 26.85%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.51%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.56%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.63%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.53%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.57%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.64%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.52%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.62%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.56%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.45%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.52%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.66%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.53%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.62%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.38%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 64.44%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.39%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.61%
+Temperature: 17.62°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.64%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 62.68%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 63.54%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.63%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.61%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 62.28%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.62%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 64.32%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.56%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.58%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.38%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.52%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 25.59%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.56°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.50°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.44°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.31°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.25°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.12°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 17.00°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.94°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.88°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.81°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.75°C.
+Values Sent
+
+
+ADC Output:  496 Percentage:  52%
+Light Level: 0.00%
+Temperature: 16.69°C.
+Values Sent
+
+
+ADC Output:  496 PADC Output:  448 Percentage:  56%
+Light Level: 67.18%
+Temperature: 17.06°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.58%
+Temperature: 17.19°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.53%
+Temperature: 17.38°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.51%
+Temperature: 17.69°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.55%
+Temperature: 18.00°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.52%
+Temperature: 18.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.53%
+Temperature: 18.31°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.58%
+Temperature: 18.50°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.53%
+Temperature: 18.69°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.40%
+Temperature: 18.81°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.64%
+Temperature: 18.94°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.45%
+Temperature: 19.00°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.43%
+Temperature: 19.06°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.55%
+Temperature: 19.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.56%
+Temperature: 19.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.54%
+Temperature: 19.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.32%
+Temperature: 19.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.62%
+Temperature: 19.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.56%
+Temperature: 19.12°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.47%
+Temperature: 19.19°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.57%
+Temperature: 19.19°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.64%
+Temperature: 19.19°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.45%
+Temperature: 19.25°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.26%
+Temperature: 19.31°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.54%
+Temperature: 19.31°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.24%
+Temperature: 19.38°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.48%
+Temperature: 19.38°C.
+Values Sent
+
+
+ADC Output:  448 Percentage:  56%
+Light Level: 66.54%
+Temperature: 19.44°C.
+Values Sent
+Traceback (most recent call last):
+  File "sendAllData.py", line 116, in <module>
+    main()
+  File "sendAllData.py", line 101, in main
+    sendValues(percent, temp.read_temp(), lightPercentage)
+  File "sendAllData.py", line 77, in sendValues
+    cursor.execute(sql)
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 991, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 1037, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+Traceback (most recent call last):
+  File "sendAllData.py", line 29, in <module>
+    port = 3307 )
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 699, in __init__
+    self.connect()
+  File "/home/pi/.local/lib/python2.7/site-packages/pymysql/connections.py", line 967, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
