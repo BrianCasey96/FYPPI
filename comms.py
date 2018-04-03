@@ -24,6 +24,3 @@ mqttClient.on_message = messageDecoder
 
 mqttClient.connect(serverAddress)
 mqttClient.loop_forever()
-
-
-

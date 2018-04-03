@@ -8,8 +8,8 @@ GPIO.setup(sensor, GPIO.IN)
 
 while True:
 	if GPIO.input(sensor):
-	    print ('LED off')
+	    print ('LED Off on sensor')
 	else:
-	    print ('LED on')
-	    
+	    print ('LED On on sensor')
+
 	time.sleep(1)

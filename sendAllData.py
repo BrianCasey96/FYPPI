@@ -13,10 +13,9 @@ import subprocess
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
 
-#import PySQLPool
-
 import temp
 import moisture_level
+import water
 
 user = config.user()
 passwd = config.returnPassword()
@@ -24,35 +23,24 @@ db = config.db()
 
 #subprocess.call(['./cloudproxy.sh'])
 
-#os.system('./cloudproxy.sh')
+#os.system('cd Code/FYPPI/')
+os.system('./cloudproxy.sh')
+sleep(3)
 
 def connectionStatus(client, userdata, flags, rc):
        mqttClient.subscribe("rpi/gpio")
 
 clientName = "RPI"
 serverAddress = "35.198.67.227"
+
 cnx = pymysql.connect(host="127.0.0.1",
 		      user=user,
 		      passwd=passwd,
 		      db=db,
 		      port = 3307 )
 
-#connection = PySQLPool.getNewConnection(host="127.0.0.1",
-#                      user="root",
-#                      passwd="butterfly",
-#                      db="plant_data",
-#                      port = 3307)
-
-#query = PySQLPool.getNewQuery(connection)
-
 ##for water pump
-init = False
-
 GPIO.setmode(GPIO.BCM)
-
-GPIO.setup(17, GPIO.OUT)
-GPIO.output(17, GPIO.LOW)
-GPIO.output(17, GPIO.HIGH)
 
 global percent
 global adc_output
@@ -60,21 +48,16 @@ adc_output, percent = moisture_level.reading()
 
 ldr = LightSensor(14)
 
-def pump_on():
-    GPIO.output(17, GPIO.LOW)
-    sleep(3)
-    GPIO.output(17, GPIO.HIGH)
-
 def messageDecoder(client, userdata, msg):
     message = msg.payload.decode(encoding='UTF-8')
     print(message) 
     if message == "on":
            print("on")
-           pump_on()
+           water.pump_on() #pump water
 	   sleep(2)
 	   sendValues(percent, temp.read_temp(), lightPercentage)
 	   print("Values Updated after plant watered")
-		#send confrimateion back and swift update itself
+	#send conformation back and swift update itself
 
     else:
            print("Unknown message!")
@@ -112,7 +95,7 @@ def main():
      	sleep(300)
 
 ##        if percent < 60:
-##            pump_on()
+##            water.pump_on()
 
 ##        else:
 ##            print("Plant already watered")
@@ -123,8 +106,3 @@ def main():
 if __name__ == "__main__":
    # stuff only to run when not called via 'import' here
    main()
-
-
-
-
-
