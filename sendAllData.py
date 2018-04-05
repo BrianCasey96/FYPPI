@@ -21,12 +21,6 @@ user = config.user()
 passwd = config.returnPassword()
 db = config.db()
 
-#subprocess.call(['./cloudproxy.sh'])
-
-#os.system('cd Code/FYPPI/')
-os.system('./cloudproxy.sh')
-sleep(3)
-
 def connectionStatus(client, userdata, flags, rc):
        mqttClient.subscribe("rpi/gpio")
 
