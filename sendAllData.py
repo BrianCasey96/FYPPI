@@ -34,7 +34,7 @@ cnx = pymysql.connect(host="127.0.0.1",
 		      port = 3307 )
 
 ##for water pump
-GPIO.setmode(GPIO.BCM)
+#GPIO.setmode(GPIO.BCM)
 
 global percent
 global adc_output
@@ -51,8 +51,6 @@ def messageDecoder(client, userdata, msg):
 	   sleep(2)
 	   sendValues(percent, temp.read_temp(), lightPercentage)
 	   print("Values Updated after plant watered")
-	#send conformation back and swift update itself
-
     else:
            print("Unknown message!")
 
@@ -65,19 +63,15 @@ def sendValues(mositure, temp, light):
 
      finally:
         print("Values Sent")
-#  query.Query("INSERT INTO pidata VALUES (null, '%d', '%lf', '%f')" % (mositure, temp, light))
 
 mqttClient = mqtt.Client(clientName)
-
 mqttClient.on_connect = connectionStatus
 mqttClient.on_message = messageDecoder
 
 mqttClient.connect(serverAddress)
-##mqttClient.loop_forever()
 mqttClient.loop_start()
 
 def main():
-#    try:
      while 1==1:
      	print("ADC Output: {0:4d} Percentage: {1:3}%".format (adc_output,percent))
 	global lightPercentage
@@ -88,15 +82,12 @@ def main():
      	print("\n")
      	sleep(300)
 
-##        if percent < 60:
-##            water.pump_on()
+        if percent < 20:
+            water.pump_on()
+	    sleep(60)
+        else:
+            print("Plant already watered")
 
-##        else:
-##            print("Plant already watered")
-
- #   except KeyboardInterrupt:
-  #      cnx.close()
-   #     GPIO.cleanup()
 if __name__ == "__main__":
    # stuff only to run when not called via 'import' here
    main()
